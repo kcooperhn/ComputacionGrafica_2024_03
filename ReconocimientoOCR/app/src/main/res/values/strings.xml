@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ReconocimientoOCR</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="message_on_create">Metodo OnCreate Ejecutado</string>
+    <string name="message_on_start">Método onStart</string>
+    <string name="message_on_stop">Método onStop</string>
+    <string name="message_on_destroy">Método onDestroy</string>
+    <string name="message_on_pause">Método onPause</string>
+    <string name="message_on_resume">Método onResume</string>
+    <string name="message_on_restart">Método onRestart</string>
+    <string name="mi_valor_string">Mi valor String manual</string>
+    <string name="lbl_total">Total</string>
+    <string name="btn_calcular">Calcular</string>
+
+</resources>
