@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">ReconocimientoOCR</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_camera">OCR Camara</string>
+    <string name="title_gallery">OCR Galería</string>
     <string name="message_on_create">Metodo OnCreate Ejecutado</string>
     <string name="message_on_start">Método onStart</string>
     <string name="message_on_stop">Método onStop</string>
@@ -13,5 +13,9 @@
     <string name="mi_valor_string">Mi valor String manual</string>
     <string name="lbl_total">Total</string>
     <string name="btn_calcular">Calcular</string>
+    <string name="logo_description">Logo de la aplicación</string>
+    <string name="app_descriptions">Aplicación para Reconocimiento OCR en una Imagen</string>
+    <string name="btn_abrir_camara">Abrir Camara</string>
+    <string name="imgcamara_description">Imagen todmada de la camara</string>
 
 </resources>
