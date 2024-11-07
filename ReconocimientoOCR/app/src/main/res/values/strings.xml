@@ -17,5 +17,8 @@
     <string name="app_descriptions">Aplicación para Reconocimiento OCR en una Imagen</string>
     <string name="btn_abrir_camara">Abrir Camara</string>
     <string name="imgcamara_description">Imagen todmada de la camara</string>
+    <string name="btn_seleccionar_imagen">Seleccionar Imagen</string>
+    <string name="img_descripcion_galeria">Imagen seleccionada de la galeria</string>
+    <string name="btn_extraer_texto">Extraer Texto</string>
 
 </resources>
