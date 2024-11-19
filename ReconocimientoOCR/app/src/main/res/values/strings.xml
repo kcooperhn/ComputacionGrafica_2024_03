@@ -20,5 +20,11 @@
     <string name="btn_seleccionar_imagen">Seleccionar Imagen</string>
     <string name="img_descripcion_galeria">Imagen seleccionada de la galeria</string>
     <string name="btn_extraer_texto">Extraer Texto</string>
+    <string name="lbl_chip_reconocimiento_dni">Reconocimiento de DNI</string>
+    <string name="lbl_cb_reconocimiento_dni">Reconocimiento de DNI</string>
+
+    <string name="take_photo">Tomar Foto</string>
+    <string name="start_capture">Iniciar Captura</string>
+    <string name="stop_capture">Detener Captura</string>
 
 </resources>
