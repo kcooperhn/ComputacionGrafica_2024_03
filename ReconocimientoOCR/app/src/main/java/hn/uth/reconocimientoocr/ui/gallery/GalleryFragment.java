@@ -48,8 +48,8 @@ public class GalleryFragment extends Fragment {
     private TextView txtResult;
     private CheckBox reconocimientoDNI;
     private Bitmap imagenSeleccionada;
-    private Integer maxImageWidth;
-    private Integer maxImageHeight;
+    private Integer maxImageWidth2;
+    private Integer maxImageHeight2;
     private int contadorNombre = 0;
     private int contadorApellido = 0;
     private String nombre = "";

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UTH-VisionAPI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">UTH</string>
+    <string name="nav_header_subtitle">Computación Gráfica y Visual</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Abrir Galeria</string>
+
+    <string name="menu_home">Reconocimiento de Rostros</string>
+    <string name="menu_gallery">Etiquetado de Imagenes</string>
+    <string name="menu_slideshow">Reconocimiento de Objetos</string>
+    <string name="btn_descripcion_abrir_camara">abrir la camara del dispositivo</string>
+    <string name="img_description_no_image">imagen no dispoible</string>
+    <string name="mensaje_foto_existe">Foto cargada exitosamente</string>
+    <string name="mensaje_no_foto_existe">Imagen no seleccionada</string>
+</resources>
