@@ -53,17 +53,21 @@ public class ReconocimientoRostrosFragment extends Fragment {
         btnAnalizar = binding.btnEjecutar;
         btnAnalizar.setVisibility(View.GONE);
 
-        Bitmap fotoCamara = (Bitmap)getArguments().getParcelable("camara");
-        Bitmap fotoGaleria = (Bitmap)getArguments().getParcelable("galeria");
-        if(fotoCamara != null){
-            binding.imgPreviewRostros.setImageBitmap(fotoCamara);
-            showToast(this.getActivity().getString(R.string.mensaje_foto_existe));
-            imagenSeleccionada = fotoCamara;
-            btnAnalizar.setVisibility(View.VISIBLE);
-        }else if(fotoGaleria != null){
-            showToast(this.getActivity().getString(R.string.mensaje_foto_existe));
-            imagenSeleccionada = fotoGaleria;
-            mostrarImagen();
+        try{
+            Bitmap fotoCamara = obtenerImagenParcelable("camara");
+            Bitmap fotoGaleria = obtenerImagenParcelable("galeria");
+            if(fotoCamara != null){
+                binding.imgPreviewRostros.setImageBitmap(fotoCamara);
+                showToast(this.getActivity().getString(R.string.mensaje_foto_existe));
+                imagenSeleccionada = fotoCamara;
+                btnAnalizar.setVisibility(View.VISIBLE);
+            }else if(fotoGaleria != null){
+                showToast(this.getActivity().getString(R.string.mensaje_foto_existe));
+                imagenSeleccionada = fotoGaleria;
+                mostrarImagen();
+            }
+        }catch(Exception error){
+            Log.d("RECONOCIMIENTO_ROSTRO","Error al cargar datos de inicio del fragmento");
         }
 
         btnAnalizar.setOnClickListener(event -> {
@@ -71,6 +75,17 @@ public class ReconocimientoRostrosFragment extends Fragment {
         });
 
         return root;
+    }
+
+    private Bitmap obtenerImagenParcelable(String parametro){
+        Bitmap foto;
+        try {
+            foto = (Bitmap) getArguments().getParcelable(parametro);
+        }catch(Exception error){
+            error.printStackTrace();
+            foto = null;
+        }
+        return foto;
     }
 
     public void ejecutarAnalisisRostro(){

@@ -15,4 +15,5 @@
     <string name="mensaje_foto_existe">Foto cargada exitosamente</string>
     <string name="mensaje_no_foto_existe">Imagen no seleccionada</string>
     <string name="btn_analizar_imagen">Analizar Imagen</string>
+    <string name="btn_leer_contexto">Leer Contexto</string>
 </resources>

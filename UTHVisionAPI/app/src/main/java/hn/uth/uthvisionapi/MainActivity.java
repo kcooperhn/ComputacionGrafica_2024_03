@@ -165,7 +165,10 @@ public class MainActivity extends AppCompatActivity {
     private void navegarProcesamiento(String tipoFoto) {
         Bundle bundle = new Bundle();
         bundle.putParcelable(tipoFoto, imagenSeleccionada);
-        navController.navigate(R.id.nav_reconocimiento_rostros, bundle);
+        //if(navController.getCurrentDestination().getId())
+        //navController.navigate(R.id.nav_reconocimiento_rostros, bundle);
+            navController.navigate(navController.getCurrentDestination().getId(), bundle);
+
     }
 
     private void seleccionarImagenGaleria(){
