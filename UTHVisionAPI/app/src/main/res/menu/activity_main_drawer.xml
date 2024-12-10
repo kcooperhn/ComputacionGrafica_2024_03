@@ -16,5 +16,10 @@
             android:id="@+id/nav_reconocimiento_objetos"
             android:icon="@drawable/baseline_emoji_objects_24"
             android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/nav_reconocimiento_codigos_barra"
+            android:icon="@drawable/baseline_qr_code_scanner_24"
+            android:title="@string/menu_codigos_barra" />
     </group>
 </menu>

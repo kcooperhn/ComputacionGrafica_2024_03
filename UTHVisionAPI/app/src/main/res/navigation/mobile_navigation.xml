@@ -25,9 +25,21 @@
 
     <fragment
         android:id="@+id/nav_reconocimiento_objetos"
-        android:name="hn.uth.uthvisionapi.ui.reconocimiento_objetos.ReconocimientoObjetosFragment"
+        android:name="hn.uth.uthvisionapi.ui.reconocimiento_codigos_barra.ReconocimientoCodigosBarraFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_reconocimiento_objetos" >
+        tools:layout="@layout/fragment_reconocimiento_codigos_barra" >
+        <argument
+            android:name="imagen"
+            app:argType="android.graphics.Bitmap"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_reconocimiento_codigos_barra"
+        android:name="hn.uth.uthvisionapi.ui.reconocimiento_codigos_barra.ReconocimientoCodigosBarraFragment"
+        android:label="@string/menu_codigos_barra"
+        tools:layout="@layout/fragment_reconocimiento_codigos_barra" >
         <argument
             android:name="imagen"
             app:argType="android.graphics.Bitmap"

@@ -10,10 +10,12 @@
     <string name="menu_home">Reconocimiento de Rostros</string>
     <string name="menu_gallery">Etiquetado de Imagenes</string>
     <string name="menu_slideshow">Reconocimiento de Objetos</string>
+    <string name="menu_codigos_barra">Reconocimiento de Códigos de Barra</string>
     <string name="btn_descripcion_abrir_camara">abrir la camara del dispositivo</string>
     <string name="img_description_no_image">imagen no dispoible</string>
     <string name="mensaje_foto_existe">Foto cargada exitosamente</string>
     <string name="mensaje_no_foto_existe">Imagen no seleccionada</string>
     <string name="btn_analizar_imagen">Analizar Imagen</string>
     <string name="btn_leer_contexto">Leer Contexto</string>
+    <string name="btn_leer_codigo_barras">Leer Código de Barras</string>
 </resources>
